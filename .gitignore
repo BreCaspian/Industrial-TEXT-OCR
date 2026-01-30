@@ -20,6 +20,6 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Data/output (keep code only)
-output/
-output_all/
+# Output (keep annotated for README)
+output/review/
+output/ocr_results.csv
