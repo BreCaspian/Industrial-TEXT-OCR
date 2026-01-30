@@ -1,0 +1,8 @@
+paddleocr>=3.4.0
+easyocr>=1.7.2
+opencv-python>=4.9.0
+pandas>=2.2.0
+
+# GPU (optional, choose ONE):
+# - PaddleOCR GPU: install a CUDA-matched paddlepaddle-gpu
+# - EasyOCR GPU: install a CUDA-matched torch/torchvision/torchaudio
