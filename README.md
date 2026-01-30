@@ -2,16 +2,14 @@
 
 Example outputs (from `output\annotated\`):
 
-<table>
-  <tr>
-    <td><img src="output/annotated/1G2050H.jpg" width="320" /></td>
-    <td><img src="output/annotated/1X2102H.jpg" width="320" /></td>
-  </tr>
-  <tr>
-    <td><img src="output/annotated/IMG_20250828_151707.jpg" width="320" /></td>
-    <td><img src="output/annotated/20260114_141859.jpg" width="320" /></td>
-  </tr>
-</table>
+<div style="font-size:0;line-height:0;">
+  <img src="output/annotated/1G2050H.jpg" width="320" style="display:block;float:left;margin:0;padding:0;border:0;">
+  <img src="output/annotated/1X2102H.jpg" width="320" style="display:block;float:left;margin:0;padding:0;border:0;">
+  <div style="clear:both;"></div>
+  <img src="output/annotated/IMG_20250828_151707.jpg" width="320" style="display:block;float:left;margin:0;padding:0;border:0;">
+  <img src="output/annotated/20260114_141859.jpg" width="320" style="display:block;float:left;margin:0;padding:0;border:0;">
+  <div style="clear:both;"></div>
+</div>
 
 Batch OCR for alphanumeric codes from industrial images. Supports 0/90/180/270 rotation search, optional preprocessing, regex-based extraction, CSV output, and annotated review images.
 
